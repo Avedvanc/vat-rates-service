@@ -13,7 +13,7 @@ import com.example.rates.services.CountryRateService;
 import lombok.RequiredArgsConstructor;
 
 @Component
-@Profile("!test")
+@Profile("dev")
 @RequiredArgsConstructor
 public class TerminalOutputProducer implements CommandLineRunner {
 
